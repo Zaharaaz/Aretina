@@ -1,0 +1,66 @@
+name: aretina
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.5+1
+
+  # Route
+  go_router: ^17.3.0
+
+  # Database
+  sqflite: ^2.4.3
+  path: ^1.9.1
+
+  # Camera and image
+  camera: ^0.12.0+1
+  image_picker: ^1.2.2
+  image: ^4.9.1
+
+  # ML
+  tflite_flutter: ^0.12.1
+
+  # UI
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  lottie: ^3.3.3
+  fl_chart: ^1.2.0
+
+  # Auth and Crypto
+  crypto: ^3.0.7
+  shared_preferences: ^2.5.5
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.5.3
+  permission_handler: ^12.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/eye_model.tflite
+    - assets/model/labels.txt
+    - assets/icon/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#070B14"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
