@@ -14,7 +14,7 @@ TensorFlow Lite model.
 | Recall | 97.84% |
 | F1-score | 97.83% |
 
-Evaluated on [test set / validation set, pastikan] ([N] images).
+Evaluated on test set (231 images).
 
 ## Dataset
 | Class | Images |
@@ -49,7 +49,12 @@ flutter pub get
 flutter run
 ```
 
+## Notebook Training
+aretina.ipynb
+
 ## Demo
 ![app screenshot](A_1.jpg)
 ![app screenshot](A_2.jpg)
 ![app screenshot](A_3.jpg)
+
+
