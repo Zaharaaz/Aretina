@@ -50,6 +50,6 @@ flutter run
 ```
 
 ## Demo
-![app screenshot](A_1.png)
-![app screenshot](A_2.png)
-![app screenshot](A_3.png)
+![app screenshot](A_1.jpg)
+![app screenshot](A_2.jpg)
+![app screenshot](A_3.jpg)
