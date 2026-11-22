@@ -43,8 +43,8 @@ Flutter, Dart, Python, Keras/TensorFlow, MobileNetV2, TensorFlow Lite
 
 ## How to run
 ```bash
-git clone https://github.com/Zaharaaz/[nama-repo]
-cd [nama-repo]
+git clone https://github.com/Zaharaaz/Aretina
+cd Aretina
 flutter pub get
 flutter run
 ```
